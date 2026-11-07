@@ -23,10 +23,10 @@ export default function TopAppBar({ onReplaySplash }) {
           </div>
           <div className="flex items-center gap-1.5">
             <span className="font-serif-bridal text-2xl font-semibold text-[#4A3B39]">
-              {brideProfile?.full_name || 'Sarah'}
+              Aroussa
             </span>
             <span className="text-[10px] uppercase tracking-widest px-2 py-0.5 rounded-full bg-[#F9E8EC] text-[#B86B7D] font-semibold border border-[#EBCBD3]">
-              Mariée
+              {brideProfile?.full_name || 'Sarah'}
             </span>
           </div>
         </Link>

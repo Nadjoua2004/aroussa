@@ -1,8 +1,8 @@
 {
   "id": "/?pwa=1",
-  "name": "Sarah • Mon Carnet de Mariée",
-  "short_name": "Sarah Mariée",
-  "description": "Le carnet de préparation de mariage de Sarah : boutiques de robes blanches, robes de soirée, caftans, karakous et tenues traditionnelles.",
+  "name": "Aroussa",
+  "short_name": "Aroussa",
+  "description": "Aroussa : boutiques de robes blanches, robes de soirée, caftans, karakous et tenues traditionnelles de mariée.",
   "start_url": "/?pwa=1",
   "scope": "/",
   "display": "standalone",

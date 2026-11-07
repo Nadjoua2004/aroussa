@@ -61,10 +61,10 @@ export default function LandingInstallPage({ onEnterFullApp }) {
               Application Mobile Mariée
             </span>
             <h1 className="font-serif-bridal text-4xl font-semibold text-[#4A3B39]">
-              Carnet de Princesse Sarah
+              Aroussa
             </h1>
             <p className="text-xs text-[#84706C]">
-              Installe l&apos;application sur ton téléphone pour accéder aux{' '}
+              Installe l&apos;application <strong>Aroussa</strong> sur ton téléphone pour accéder aux{' '}
               <strong>{shops.length || 34} boutiques</strong>, cartes, numéros et ta liste de
               favoris.
             </p>
@@ -77,7 +77,7 @@ export default function LandingInstallPage({ onEnterFullApp }) {
             className="w-full py-3.5 px-6 rounded-2xl bg-[#B86B7D] hover:bg-[#A3596A] active:scale-[0.98] text-white text-sm font-semibold shadow-md transition-all flex items-center justify-center gap-2"
           >
             <Download className="w-4 h-4" />
-            <span>Installer l&apos;Application (PWA)</span>
+            <span>Installer Aroussa (PWA)</span>
           </button>
 
           {/* Lien séparé d'installation partageable */}
@@ -163,3 +163,4 @@ export default function LandingInstallPage({ onEnterFullApp }) {
     </div>
   );
 }
+

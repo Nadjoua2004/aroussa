@@ -396,16 +396,16 @@ export function PrincessOpeningSplash({ onFinish }) {
           </svg>
         </div>
 
-        {/* Texte Princesse Sarah */}
+        {/* Texte Aroussa */}
         <div className="text-center space-y-2 -mt-2">
           <p className="text-xs uppercase tracking-[0.25em] text-[#B86B7D] font-semibold">
             ✨ Il était une fois ✨
           </p>
           <h1 className="font-serif-bridal text-4xl sm:text-5xl font-semibold text-[#4A3B39]">
-            Princesse Sarah
+            Aroussa
           </h1>
           <p className="text-xs sm:text-sm text-[#84706C]">
-            Ton carnet féerique de robes & tenues de mariée
+            Le carnet féerique de robes & tenues de mariée
           </p>
 
           <button
