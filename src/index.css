@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-pearl: #FAF6F1;
+    --bg-beige: #F3ECE2;
+    --bg-blush: #F9E8EC;
+    --pink-soft: #F3D5DD;
+    --pink-princess: #D98A9C;
+    --pink-deep: #B86B7D;
+    --gold-champagne: #C5A387;
+    --border-delicate: #EAD9D5;
+    --text-primary: #4A3B39;
+    --text-muted: #84706C;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--bg-pearl);
+    color: var(--text-primary);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-bridal {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Subtils dégradés princesse beige & rose poudré */
+.bg-princess-gradient {
+  background: linear-gradient(145deg, #FAF6F1 0%, #F9E9EE 55%, #F4ECE1 100%);
+}
+
+.bg-card-bridal {
+  background: rgba(255, 253, 251, 0.92);
+  backdrop-filter: blur(10px);
+  border: 1px solid #ECDCDA;
+  box-shadow: 0 8px 28px -8px rgba(184, 107, 125, 0.08);
+}
+
+.shadow-princess {
+  box-shadow: 0 10px 30px -10px rgba(197, 155, 130, 0.16), 0 4px 14px -4px rgba(217, 138, 156, 0.12);
+}
+
+/* Masquer la barre de défilement horizontale sur les filtres mobiles */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

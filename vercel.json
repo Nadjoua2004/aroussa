@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/((?!api/|assets/|icons/|manifest\\.webmanifest|sw\\.js|workbox-.*).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+

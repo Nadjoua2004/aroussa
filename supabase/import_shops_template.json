@@ -1,0 +1,34 @@
+[
+  {
+    "_comment": "Modèle d'intégration des boutiques (quand vous fournirez votre fiche et vos captures d'écran). Aucune boutique démo n'est active dans l'application.",
+    "name": "Nom de la boutique ou page Instagram",
+    "slug": "nom-de-la-boutique",
+    "description": "Description courte des tenues proposées",
+    "service_mode": "both",
+    "offers_buy": true,
+    "offers_rent": true,
+    "shop_type": "physical",
+    "is_physical": true,
+    "is_online": true,
+    "wilaya_code": 16,
+    "city_commune": "Hydra, Alger",
+    "address": "Adresse exacte si magasin physique",
+    "google_maps_url": "https://maps.google.com/?q=...",
+    "phone": "0550 00 00 00",
+    "whatsapp": "213550000000",
+    "instagram_handle": "@nom_boutique",
+    "instagram_url": "https://instagram.com/...",
+    "facebook_url": "",
+    "cover_image_url": "/uploads/shops/exemple-cover.jpg",
+    "subcategories": ["robe-blanche", "robe-soiree", "caftan", "karakou"],
+    "images": [
+      {
+        "image_url": "/uploads/shops/photo-1.jpg",
+        "title": "Modèle 1",
+        "dress_tag": "Karakou",
+        "service_mode": "rent"
+      }
+    ]
+  }
+]
+
