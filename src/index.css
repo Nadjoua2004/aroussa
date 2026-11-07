@@ -32,14 +32,61 @@
 }
 
 .bg-card-bridal {
-  background: rgba(255, 253, 251, 0.92);
+  background: rgba(255, 253, 251, 0.94);
   backdrop-filter: blur(10px);
   border: 1px solid #ECDCDA;
-  box-shadow: 0 8px 28px -8px rgba(184, 107, 125, 0.08);
+  box-shadow: 0 8px 28px -8px rgba(184, 107, 125, 0.09);
 }
 
 .shadow-princess {
-  box-shadow: 0 10px 30px -10px rgba(197, 155, 130, 0.16), 0 4px 14px -4px rgba(217, 138, 156, 0.12);
+  box-shadow: 0 10px 30px -10px rgba(197, 155, 130, 0.18), 0 4px 14px -4px rgba(217, 138, 156, 0.14);
+}
+
+/* Animations d'étincelles Disney Princesse */
+@keyframes disneyTwinkle {
+  0%, 100% {
+    transform: scale(0.55) rotate(0deg);
+    opacity: 0.25;
+  }
+  50% {
+    transform: scale(1.2) rotate(25deg);
+    opacity: 0.95;
+  }
+}
+
+.animate-disney-twinkle {
+  animation: disneyTwinkle 3.8s ease-in-out infinite;
+}
+
+@keyframes wandBurst {
+  0% {
+    transform: rotate(var(--angle)) translateY(0px) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(var(--angle)) translateY(-38px) scale(0);
+    opacity: 0;
+  }
+}
+
+.animate-wand-burst {
+  animation: wandBurst 0.75s ease-out forwards;
+}
+
+@keyframes spinSlow {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.12);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 5s linear infinite;
 }
 
 /* Masquer la barre de défilement horizontale sur les filtres mobiles */
@@ -50,4 +97,3 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-

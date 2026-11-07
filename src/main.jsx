@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
 
-// Enregistrement du Service Worker PWA
-if ('serviceWorker' in navigator && import.meta.env.PROD) {
+// Enregistrement du Service Worker PWA pour rendre l'application installable partout
+if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('/sw.js').catch(() => {});
   });
@@ -15,4 +15,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>
 );
-
