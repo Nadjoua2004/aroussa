@@ -124,7 +124,7 @@ export default function ShopsCatalogPage() {
     visitedFilter !== 'all';
 
   return (
-    <div className="max-w-5xl mx-auto px-4 pt-6 pb-28 space-y-6">
+    <div className="max-w-3xl mx-auto px-4 pt-4 pb-8 space-y-5 overflow-x-hidden">
       {/* En-tête de la page */}
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3">
         <div>

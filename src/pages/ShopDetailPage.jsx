@@ -123,7 +123,7 @@ export default function ShopDetailPage() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 pt-6 pb-28 space-y-6">
+    <div className="max-w-3xl mx-auto px-4 pt-4 pb-8 space-y-5 overflow-x-hidden">
       {/* Retour */}
       <div>
         <Link

@@ -1,14 +1,14 @@
 {
-  "id": "/",
+  "id": "/?pwa=1",
   "name": "Sarah • Mon Carnet de Mariée",
   "short_name": "Sarah Mariée",
   "description": "Le carnet de préparation de mariage de Sarah : boutiques de robes blanches, robes de soirée, caftans, karakous et tenues traditionnelles.",
-  "start_url": "/",
+  "start_url": "/?pwa=1",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#FAF6F1",
-  "theme_color": "#F7E5EA",
+  "theme_color": "#FAF6F1",
   "lang": "fr",
   "icons": [
     {

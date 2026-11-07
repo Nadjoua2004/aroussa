@@ -191,3 +191,4 @@ export function DressDrawing({ slug, className = 'w-24 h-24' }) {
       );
   }
 }
+

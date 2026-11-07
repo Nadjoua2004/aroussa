@@ -107,7 +107,7 @@ export default function PartnerSpacePage() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto px-4 pt-6 pb-28 space-y-8">
+    <div className="max-w-3xl mx-auto px-4 pt-4 pb-8 space-y-6 overflow-x-hidden">
       {/* En-tête Architecture Multi-Rôles */}
       <section className="bg-princess-gradient rounded-[2rem] border border-[#EAD9D5] p-6 sm:p-8 shadow-princess">
         <div className="flex flex-wrap items-center justify-between gap-2 mb-3">

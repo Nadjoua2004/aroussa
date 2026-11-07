@@ -14,16 +14,42 @@
     --text-muted: #84706C;
   }
 
+  html,
+  body,
+  #root {
+    width: 100%;
+    max-width: 100vw;
+    height: 100dvh;
+    overflow: hidden;
+    overscroll-behavior: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+
   body {
     font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
     background-color: var(--bg-pearl);
     color: var(--text-primary);
-    overflow-x: hidden;
+  }
+
+  input,
+  textarea,
+  select {
+    user-select: text;
   }
 
   h1, h2, h3, .font-serif-bridal {
     font-family: 'Cormorant Garamond', Georgia, serif;
   }
+}
+
+/* Zone de défilement interne stricte style Application Mobile Native */
+.native-app-scroll {
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior-y: contain;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Subtils dégradés princesse beige & rose poudré */

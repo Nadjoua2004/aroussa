@@ -423,3 +423,4 @@ export function PrincessOpeningSplash({ onFinish }) {
     </div>
   );
 }
+

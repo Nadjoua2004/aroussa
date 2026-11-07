@@ -28,7 +28,7 @@ export default function HomePage() {
     shops.filter((s) => (s.subcategories || []).some((sub) => sub.slug === slug)).length;
 
   return (
-    <div className="max-w-5xl mx-auto px-4 pt-5 pb-28 space-y-8">
+    <div className="max-w-3xl mx-auto px-4 pt-4 pb-8 space-y-6 overflow-x-hidden">
       {/* 1. Bannière Princesse Sarah épurée */}
       <section className="relative rounded-[2.2rem] bg-princess-gradient border border-[#EAD9D5] p-6 sm:p-8 shadow-princess overflow-hidden flex flex-col sm:flex-row items-center justify-between gap-6">
         <div className="text-center sm:text-left space-y-3">
